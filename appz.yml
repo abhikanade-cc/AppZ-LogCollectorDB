@@ -9,10 +9,10 @@ build:
   build_file: none
   output_files: output/*.zip
   image_template: mongo
-  image_name: myco/log-collector-db
+  image_name: alpha/log-collector-db
 
 deploy:
-  context: myco/DEV
+  context: alpha/DEV
   replicas: 1
   port:
   - 27017
